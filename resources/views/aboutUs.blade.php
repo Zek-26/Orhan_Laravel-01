@@ -18,10 +18,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about-us">Link</a>
+                <a class="nav-link" href="#">Link</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,7 +50,7 @@
 
     <div class="conteine-fluid">
         <div class="row justify-content-center bg-info">
-            <h1 class="text-center display-1">Homepage</h1>
+            <h1 class="text-center display-1">Il nostro staff</h1>
         </div>
        
     </div>
