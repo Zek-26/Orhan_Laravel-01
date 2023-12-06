@@ -19,17 +19,13 @@ Route::get('/', function () {return view('welcome');});
     
 Route::get('/about-us', function() {
 
-    //   $students = ['Pino', 'Gino', 'Genoveffo', 'Beppo'];
+    //   $students = ['Pino', 'Gino', 'Genoveffo',];
 
       $students = [
-        ['name' => 'Gino',
-        'age' => 23,
-        'img' =>'/img/Gino.jpeg'],
-        ['name' => 'Pino',
-        'age' => 24],
-        ['name' => 'Genoveffo',
-    'age' => 25],
-    ];
+        ['name' => 'Gino','age' => 23,],
+        ['name' => 'Pino','age' => 24],
+        ['name' => 'Genoveffo','age' => 25],
+      ];
 
 
     return view('aboutUs',
