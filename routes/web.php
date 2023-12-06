@@ -18,5 +18,26 @@ Route::get('/', function () {return view('welcome');});
 // UNA ROTTA PER MOSTRARE IL NOSTRO STAFF
     
 Route::get('/about-us', function() {
-    return view('aboutUs');
+
+    //   $students = ['Pino', 'Gino', 'Genoveffo', 'Beppo'];
+
+      $students = [
+        ['name' => 'Gino',
+        'age' => 23,
+        'img' =>'/img/Gino.jpeg'],
+        ['name' => 'Pino',
+        'age' => 24],
+        ['name' => 'Genoveffo',
+    'age' => 25],
+    ];
+
+
+    return view('aboutUs',
+
+    ['studenti' => $students]
+
+);
+
+
+    
 });

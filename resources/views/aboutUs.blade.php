@@ -55,7 +55,11 @@
         </div>
        
     </div>
-    
+
+    @foreach($studenti as $studente)
+    <p>Nome studente: {{$studente['name']}}</p>
+    <p>Età studente: {{$studente['age']}}</p>
+    @endforeach
 
 
 
